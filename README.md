@@ -59,13 +59,13 @@ Backend: PHP processes the data, handling CRUD operations.
 Database: MySQL stores bus details.
 Database Schema:
 
-CREATE TABLE timetable (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    bus_name VARCHAR(255) NOT NULL,
-    destination VARCHAR(255) NOT NULL,
-    arrival_time TIME NOT NULL,
-    departure_time TIME NOT NULL
-);
+    CREATE TABLE timetable (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        bus_name VARCHAR(255) NOT NULL,
+        destination VARCHAR(255) NOT NULL,
+        arrival_time TIME NOT NULL,
+        departure_time TIME NOT NULL
+    );
 5.2 GUI of Working System
 The interface is built using Tailwind CSS for a clean, modern design. Key features:
 
