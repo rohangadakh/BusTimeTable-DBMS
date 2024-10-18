@@ -58,6 +58,7 @@ Frontend: User interacts with the system via forms built with HTML and Tailwind 
 Backend: PHP processes the data, handling CRUD operations.
 Database: MySQL stores bus details.
 Database Schema:
+
 CREATE TABLE timetable (
     id INT AUTO_INCREMENT PRIMARY KEY,
     bus_name VARCHAR(255) NOT NULL,
@@ -71,6 +72,8 @@ The interface is built using Tailwind CSS for a clean, modern design. Key featur
 Form: Allows users to add a new bus with its name, destination, arrival, and departure times.
 Table: Displays all buses in a timetable format.
 Footer: Links to the project’s GitHub profile.
+Example:
+
 | Bus Name | Destination | Arrival Time | Departure Time | Actions |
 --------------------------------------------------------------------
 | Bus 101  | City Center | 10:00 AM     | 10:15 AM       | Delete  |
