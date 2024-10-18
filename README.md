@@ -74,9 +74,10 @@ Table: Displays all buses in a timetable format.
 Footer: Links to the project’s GitHub profile.
 Example:
 
-| Bus Name | Destination | Arrival Time | Departure Time | Actions |
---------------------------------------------------------------------
-| Bus 101  | City Center | 10:00 AM     | 10:15 AM       | Delete  |
+    | Bus Name | Destination | Arrival Time | Departure Time | Actions |
+    --------------------------------------------------------------------
+    | Bus 101  | City Center | 10:00 AM     | 10:15 AM       | Delete  |
+
 6. Conclusion
 The Bus Timetable Management System provides a user-friendly, web-based solution for managing bus schedules. It offers real-time data management with persistent storage using MySQL. The interface, built with Tailwind CSS, ensures a modern and responsive experience.
 
